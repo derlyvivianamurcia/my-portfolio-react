@@ -6,6 +6,7 @@ import SecServicios from './secServicios.jsx'
 import { data } from "../utils/mocks/data.js";
 import Educacion from './educacion';
 import Cursos from './cursos.jsx';
+import Experiencia from './experiencia.jsx';
 
 class Main extends React.Component {
     render() {
@@ -16,6 +17,7 @@ class Main extends React.Component {
                 <Educacion Educacion={data.Educacion} />
                 <Cursos Cursos={data.Cursos} />
                 <SecServicios SecServicios={data.Main} />
+                <Experiencia Experiencia={data.Experiencia} />
 
 
             </>

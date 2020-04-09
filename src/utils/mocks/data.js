@@ -1,19 +1,22 @@
 import React from "react";
 import Portafolio_servicios from '../../pages/Portafolio_servicios';
+import Inicio from '../../pages/Inicio';
+import ExperienciaPage from '../../pages/ExperienciaPage';
+
 
 export const data = {
   Header: [
     {
       titulo: "INICIO",
-      link: ""
+      link: "/"
     },
     {
       titulo: "PORTAFOLIO DE SERVICIOS",
-      link: '',
+      link: '/Portafolio_servicios',
     },
     {
       titulo: "EXPERIENCIA",
-      link: "#proyectos"
+      link: '/ExperienciaPage',
     },
     {
       titulo: "CONTACTO /TRABAJEMOS JUNTOS",
@@ -205,6 +208,43 @@ export const data = {
       nombreProyecto:'TIENDA BÁSICA',
       descriptionProject: "Sitio web infomativo, en el se encuentra todo lo relacionado con el fenomeno de las Auroras.",
       viewProject: 'Ver proyecto'
+    }
+  ],
+  ItemsExperiencia: [
+    {
+      nombreExperiencia:'ANALISTA DE SISTEMAS',
+      descripcion: "Adaptar y diseñar sistemas de información para ayudar a las organizaciones a trabajar de forma más rápida y eficiente.",
+      empresa: 'Universidad de la Amazonia - GIECOM',
+      periodo: 'Seis (6) meses',
+     
+    },
+    {
+      nombreExperiencia:'AUXILIAR DE SISTEMAS',
+      descripcion: "Atender, orientar y brindar capacitación a los estudiantes y personal administrativo de la Institución en el área de informática.",
+      empresa: 'Universidad de la Amazonia',
+      periodo: '13 de agosto al 20 de noviembre del 2018',
+
+    },
+    {
+     nombreExperiencia:'AUXILIAR DE SOPORTE',
+      descripcion: "Soporte, digitalización de datos iniciales y capacitadora del personal de la Vicerrectoría de Investigaciones.s",
+      empresa: 'Universidad de la Amazonia',
+      periodo: '15 de mayo al 04 de agosto del 2017',
+
+    },
+    {
+      nombreExperiencia:'ESTUDIANTE INVESTIGADORA',
+      descripcion: "Investigar y desarrollar proyectos multidisciplinarios en las áreas de gestión del conocimiento, comunicación, electrónica e informática.",
+      empresa: 'Universidad de la Amazonia',
+      periodo: '2017 - 2019',
+
+    },
+    {
+      nombreExperiencia:'EMBAJADORA EN EL EXTERIOR (INVESTIGADORA)',
+      descripcion: "Investigar y diseñar intervalos de predicción basado en Redes Neuronales para caracterizar Incertidumbre de detección de objetos en imágenes.",
+      empresa: 'Universidad de la Amazonia',
+      periodo: '(5) cinco meses, 2019',
+
     }
   ],
 

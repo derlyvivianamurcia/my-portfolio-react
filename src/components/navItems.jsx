@@ -15,7 +15,8 @@ function navItems(props) {
                             return (
                                 <li className="nav-item active" key={`nav-item-${index}`}>
                                     {/* <a className="nav-link" href={item.link}>{item.titulo} */}
-                                    <Link to="/Portafolio_servicios" className="link">{item.titulo}</Link>
+                                    <Link to={item.link} className="link">{item.titulo}</Link>
+
                                     {/* </a> */}
                                 </li>
                             );

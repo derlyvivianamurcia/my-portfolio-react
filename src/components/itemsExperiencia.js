@@ -1,8 +1,8 @@
 import React from "react";
 import Data from "../utils/mocks/data";
 
-function Experiencia(props) {
-    const { Experiencia } = props;
+function ItemsExperiencia(props) {
+    const { ItemsExperiencia } = props;
     return (
         <>
             <section class=" features_area ">
@@ -19,7 +19,7 @@ function Experiencia(props) {
                     </div>
                     <div className="row feature_inner ">
 
-                        {Experiencia.map((item, index) => {
+                        {ItemsExperiencia.map((item, index) => {
                             return (
 
                                 <div className="col-lg-3 col-md-6">
@@ -51,4 +51,4 @@ function Experiencia(props) {
     );
 }
 
-export default Experiencia;
+export default ItemsExperiencia;
