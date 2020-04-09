@@ -1,7 +1,4 @@
 import React from "react";
-import Portafolio_servicios from '../../pages/Portafolio_servicios';
-import Inicio from '../../pages/Inicio';
-import ExperienciaPage from '../../pages/ExperienciaPage';
 
 
 export const data = {
@@ -20,7 +17,7 @@ export const data = {
     },
     {
       titulo: "CONTACTO /TRABAJEMOS JUNTOS",
-      link: "#contactame"
+      link: "/Contacto"
     }
   ],
 
