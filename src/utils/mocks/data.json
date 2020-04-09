@@ -1,0 +1,24 @@
+
+[
+  {
+    "id": 1,
+    "name": "INICIO",
+    "ref": "https://facebook.com"
+  },
+  {
+      "id": 2,
+      "name":"PORTAFOLIO DE SERVICIOS",
+      "ref": "https://instagram.com'"
+  },
+  {
+      "id": 3,
+      "name": "EXPERIENCIA",
+      "ref": "https://linkedin.com'"
+  },
+  {
+      "id": 4,
+      "name": "CONTACTO / TRABAJEMOS JUNTOS",
+      "ref":"https://github.com"
+    }
+
+]
