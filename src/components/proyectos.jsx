@@ -28,10 +28,10 @@ function Proyectos(props) {
                                     <div className=" feature_item " key={`pryectos-item-${index}`}>
 
 
-                                        <img src="https://img.icons8.com/dusk/64/000000/web.png "></img>
+                                        <img src={item.icono}></img>
                                         <h4>{item.nombreProyecto}</h4>
                                         <p>{item. descriptionProject}</p>
-                                        <a className=" primary_btn " href="https://derlyvivianamurcia.github.io/tribute_page/ "><span>{item.viewProject}</span></a>
+                                        <a className=" primary_btn " href={item.viewProject}><span>Ver proyecto</span></a>
                                         <div className="col-lg-3 col-md-6">
                                         </div>
 

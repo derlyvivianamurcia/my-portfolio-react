@@ -105,7 +105,6 @@ export const data = {
     },
     {
       icono:'https://img.icons8.com/clouds/100/000000/business-contact.png',
-
       nombreCurso: "MODELOS DE NEGOCIO DIGITAL",
       intensidad: '48 horas',
       fechaAprobacion: '23 de noviembre del 2018',
@@ -114,7 +113,6 @@ export const data = {
     },
     {
       icono:'https://img.icons8.com/clouds/100/000000/rescan-document.png',
-
       nombreCurso: "EQUILIBRIO ENTRE LA SALUD Y EL BIENESTAR PSICOLÓGICO EN LA ERA DIGITAL",
       intensidad: '48 horas',
       fechaAprobacion: '23 de noviembre del 2018',
@@ -177,7 +175,6 @@ export const data = {
     },
     {
       icono:"https://img.icons8.com/dusk/64/000000/test-partial-passed.png",
-
       nombreArea:'Testing con jest',
       descripcionArea: "Jest puede pensarse como un corredor de prueba específico de React, de hecho es una plataforma de prueba universal, con la capacidad de adaptarse a cualquier biblioteca o marco de JavaScript.",
       btbProyectos:  "Ver proyecto",
@@ -185,7 +182,6 @@ export const data = {
     },
     {
       icono:"https://img.icons8.com/dusk/64/000000/web.png",
-
       nombreArea:'Diseño de páginas web',
       descripcionArea: "Diseño de Páginas web basadas en experiencia del usuario. Incorporando elementos de HTML5, CSS, BOOTSTRAP en tu sitio Web.",
       btbProyectos:  "Ver proyectos",
@@ -195,45 +191,53 @@ export const data = {
   
   Proyectos: [
     {
+      icono:'https://img.icons8.com/dusk/64/000000/web.png',
       nombreProyecto:'PÁGINA DE ATRIBUTO: TEMA AURORAS',
       descriptionProject: "Sitio web infomativo, en el se encuentra todo lo relacionado con el fenómeno de las Auroras.",
-      viewProject: 'Ver proyecto'
+      viewProject: 'https://derlyvivianamurcia.github.io/tribute_page/'
     
     },
     {
-      nombreProyecto:'PÁGINA DE ATRIBUTO: TEMA AURORAS',
+      icono:'https://img.icons8.com/dusk/64/000000/media-queries.png ',
+      nombreProyecto:'página de producto',
       descriptionProject: "Consiste en un sitio web en el se promueve un producto, ofreciendo servicios de Internet y telefonía en las diferentes regiones.",
-      viewProject: 'Ver proyecto'
+      viewProject: ' https://derlyvivianamurcia.github.io/Build-a-Product-Landing-Page/'
     },
     {
-      nombreProyecto:'PÁGINA DE ATRIBUTO: TEMA AURORAS',
+      icono:'https://img.icons8.com/dusk/64/000000/web.png',
+      nombreProyecto:'página de documentación técnica',
       descriptionProject: "Consiste en un sitio web en el se promueve un producto, ofreciendo servicios de Internet y telefonía en las diferentes regiones.",
-      viewProject: 'Ver proyecto'
+      viewProject: 'https://derlyvivianamurcia.github.io/Build-a-Technical-Documentation-Page/ '
     },
     {
+      icono:'https://img.icons8.com/dusk/64/000000/media-queries.png',
       nombreProyecto:'TRABAJO GRUPAL LCD',
       descriptionProject: "Sitio web informativo, en el se encuentra el perfil profesional de cada una de las integrantes del grupo con un respectivo formulario.",
-      viewProject: 'Ver proyecto'
+      viewProject: 'https://lauracosorio.github.io/lcd/inicio.html'
     },
     {
+      icono:'https://img.icons8.com/dusk/64/000000/media-queries.png',
       nombreProyecto:'CLONE DE GOOGLE',
       descriptionProject: "Consiste en una practica donde se realiza el buscador de Google con cada uno de los elementos que lo componen en su página.",
-      viewProject: 'Ver proyecto'
+      viewProject: 'https://derlyvivianamurcia.github.io/clone_google/ '
     },
     {
+      icono:'https://img.icons8.com/dusk/64/000000/web.png',
       nombreProyecto:'CLONE WIKIPEDIA',
       descriptionProject: "Es un proyecto donde se realiza el buscador de Wikipedia con cada uno de los elementos que la componenn en su página..",
-      viewProject: 'Ver proyecto'
+      viewProject: 'https://derlyvivianamurcia.github.io/Clone_Wikipedia/indexWiki.html'
     },
     {
+      icono:'https://img.icons8.com/dusk/64/000000/media-queries.png',
       nombreProyecto:'RED SOCIAL',
       descriptionProject: "Sitio web donde se evidencia a nivel de interfaz una red social, con sus diferentes componentes (comentarios, likes).",
-      viewProject: 'Ver proyecto'
+      viewProject: 'https://derlyvivianamurcia.github.io/red_social/practicas/red_social/index.html'
     },
     {
+      icono:'https://img.icons8.com/dusk/64/000000/web.png ',
       nombreProyecto:'TIENDA BÁSICA',
       descriptionProject: "Sitio web infomativo, en el se encuentra todo lo relacionado con el fenomeno de las Auroras.",
-      viewProject: 'Ver proyecto'
+      viewProject: 'https://derlyvivianamurcia.github.io/tienda_basica/'
     }
   ],
   ItemsExperiencia: [
@@ -276,45 +280,3 @@ export const data = {
 
 };
 
-
-//   SecAcerca: [
-//   {
-//     title: "SOBRE MI",
-//     perfil: "Ingeniera de sistemas con conocimiento y habilidad para planear, analizar, diseñar, implementar, medir y verificar sistemas de información. Además, con capacidad Investigativa para identificar determinadas características y poder analizar los posibles problemas en un contexto determinado, y de esta manera proponer y generar soluciones. Me caracterizo por ser una persona responsable, honesta, dinámica con buenas relaciones interpersonales, con profesionalismo y objetividad, para lograr las metas de productividad trazadas por la empresa.",
-//     perfilmas: "Actualmente: Me encuentro en formación Front-End con enfoque React, en la Academia GEEK.",
-//     foto: "VISUALIZAR CV"
-//   },
-// ],
-//   Proyectos: [
-//     {
-//       image: elefante,
-//       titulo: "Página Tributo",
-//       expli: "Sitio web dedicada a los elefantes",
-//       ref: "https://lauracosorio.github.io/tribute-page/",
-//       button: "Ver proyecto"
-//     },
-//     {
-//       image: barbie,
-//       titulo: "Página de Producto",
-//       expli: "Sitio web dedicado a la venta barbies",
-//       ref: "https://lauracosorio.github.io/producto/",
-//       button: "Ver proyecto"
-//     },
-//     {
-//       image: css,
-//       titulo: "Página de Documentación Técnica",
-//       expli: "Encontraras información básica sobre CSS",
-//       ref: "https://lauracosorio.github.io/pag_documentacion/",
-//       button: "Ver proyecto"
-//     },
-//     {
-//       image: banner,
-//       titulo: "Trabajo grupal LCD",
-//       expli:
-//         "Sitio web donde encontraras el perfil profesional de las integrantes del grupo.",
-//       ref: "https://lauracosorio.github.io/lcd/inicio.html",
-//       button: "Ver proyecto"
-//     }
-//   ],
-
-  
