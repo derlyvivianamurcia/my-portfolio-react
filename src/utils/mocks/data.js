@@ -19,7 +19,7 @@ export const data = {
     }
   ],
 
-  Educacion: [
+  Educacion: 
     {
       icono:"https://img.icons8.com/dusk/64/000000/student-center.png",
       nombreCard:'PRIMARIA',
