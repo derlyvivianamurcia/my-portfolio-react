@@ -22,7 +22,7 @@ function gruposExperiencia() {
                     <div className="testi_item">
                         <div className="row">
                             <div className="col-lg-4">
-                                <img src={ImagenUniversidad}  alt="" classNameName='iconogrupo'></img>
+                                <img src={ImagenUniversidad}  alt="" className='iconogrupo'></img>
                             </div>
                             <div className="col-lg-8">
                                 <div className="testi_text">

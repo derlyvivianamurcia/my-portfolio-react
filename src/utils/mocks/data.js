@@ -242,6 +242,7 @@ export const data = {
   ],
   ItemsExperiencia: [
     {
+      icono:"https://img.icons8.com/dusk/64/000000/fine-print.png",
       nombreExperiencia:'ANALISTA DE SISTEMAS',
       descripcion: "Adaptar y diseñar sistemas de información para ayudar a las organizaciones a trabajar de forma más rápida y eficiente.",
       empresa: 'Universidad de la Amazonia - GIECOM',
@@ -249,6 +250,7 @@ export const data = {
      
     },
     {
+      icono:"https://img.icons8.com/dusk/64/000000/system-information.png",
       nombreExperiencia:'AUXILIAR DE SISTEMAS',
       descripcion: "Atender, orientar y brindar capacitación a los estudiantes y personal administrativo de la Institución en el área de informática.",
       empresa: 'Universidad de la Amazonia',
@@ -256,20 +258,16 @@ export const data = {
 
     },
     {
+      icono:"https://img.icons8.com/dusk/64/000000/user-manual.png",
      nombreExperiencia:'AUXILIAR DE SOPORTE',
       descripcion: "Soporte, digitalización de datos iniciales y capacitadora del personal de la Vicerrectoría de Investigaciones.s",
       empresa: 'Universidad de la Amazonia',
       periodo: '15 de mayo al 04 de agosto del 2017',
 
     },
+   
     {
-      nombreExperiencia:'ESTUDIANTE INVESTIGADORA',
-      descripcion: "Investigar y desarrollar proyectos multidisciplinarios en las áreas de gestión del conocimiento, comunicación, electrónica e informática.",
-      empresa: 'Universidad de la Amazonia',
-      periodo: '2017 - 2019',
-
-    },
-    {
+      icono:"https://img.icons8.com/clouds/100/000000/ask-question.png",
       nombreExperiencia:'EMBAJADORA EN EL EXTERIOR (INVESTIGADORA)',
       descripcion: "Investigar y diseñar intervalos de predicción basado en Redes Neuronales para caracterizar Incertidumbre de detección de objetos en imágenes.",
       empresa: 'Universidad de la Amazonia',

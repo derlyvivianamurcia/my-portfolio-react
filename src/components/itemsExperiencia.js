@@ -22,12 +22,10 @@ function ItemsExperiencia(props) {
                         {ItemsExperiencia.map((item, index) => {
                             return (
 
-                                <div className="col-lg-3 col-md-6">
+                                <div className="col-lg-3 col-md-6"  key={`ItemsExperiencia-item-${index}`}>
 
-                                    <div className=" feature_item " key={`educacion-item-${index}`}>
-
-
-                                        <img src="https://img.icons8.com/dusk/64/000000/fine-print.png "></img>
+                                    <div className=" feature_item ">
+                                        <img src={item.icono}></img>
                                         <h4>{item.nombreExperiencia}</h4>
                                         <p>{item.descripcion}</p>
                                         <p><strong>Empresa:</strong>{item.empresa} </p>
