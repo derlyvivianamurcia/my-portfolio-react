@@ -5,7 +5,7 @@ import SecServicios from './secServicios.jsx'
 import AreasTrabajo from './areasTrabajo.jsx'
 import Proyectos from './proyectos.jsx'
 import { Link } from 'react-router-dom';
-import { data } from "../utils/mocks/data.js";
+import { data } from "../utils/mocks/data";
 
 
 class MainPortafolioServicios extends React.Component {
