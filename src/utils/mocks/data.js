@@ -74,6 +74,7 @@ export const data = {
 
     },
     {
+      icono:'https://img.icons8.com/dusk/64/000000/google-groups.png',
       nombreCurso: "FORMACIÓN VIRTUAL EN COMUNNITY MANAGER PARA TELETRABAJADORES INDEPENDIENTES",
       intensidad: '10 horas',
       fechaAprobacion: '18 de abril del 2018',
@@ -81,6 +82,8 @@ export const data = {
 
     },
     {
+      icono:'https://img.icons8.com/dusk/64/000000/web.png ',
+
       nombreCurso: "DESARROLLO WEB PARA TELETRABAJADORES INDEPENDIENTES",
       intensidad: '2 horas',
       fechaAprobacion: '21 de abril del 2018',
@@ -88,6 +91,8 @@ export const data = {
 
     },
     {
+      icono:'https://img.icons8.com/dusk/64/000000/networking-manager.png',
+
       nombreCurso: "ETIQUETA DIGITAL PARA POTENCIALIZAR EL NETWORKING",
       intensidad: '48 horas',
       fechaAprobacion: '23 de noviembre del 2018',
@@ -95,6 +100,8 @@ export const data = {
 
     },
     {
+      icono:'https://img.icons8.com/clouds/100/000000/business-contact.png',
+
       nombreCurso: "MODELOS DE NEGOCIO DIGITAL",
       intensidad: '48 horas',
       fechaAprobacion: '23 de noviembre del 2018',
@@ -102,6 +109,8 @@ export const data = {
 
     },
     {
+      icono:'https://img.icons8.com/clouds/100/000000/rescan-document.png',
+
       nombreCurso: "EQUILIBRIO ENTRE LA SALUD Y EL BIENESTAR PSICOLÓGICO EN LA ERA DIGITAL",
       intensidad: '48 horas',
       fechaAprobacion: '23 de noviembre del 2018',
@@ -109,6 +118,8 @@ export const data = {
 
     },
     {
+      icono:'https://img.icons8.com/cotton/64/000000/business-contact--v1.png ',
+
       nombreCurso: "COMUNIDADES DIGITALES ADMINISTRACIÓN RESPONSABLE DE INTERACCIONES EN LÍNEA",
       intensidad: '48 horas',
       fechaAprobacion: '23 de noviembre del 2017',

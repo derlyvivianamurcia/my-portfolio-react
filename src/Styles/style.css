@@ -522,7 +522,7 @@ button:focus {
 
 .home_banner_area {
     z-index: 1;
-    /* background: url(../img/banner/home-banne_central.png) no-repeat top center; */
+     background: url(../img/banner/home-banne_central.png) no-repeat top center;
     background-position: center;
     background-size: cover;
 
@@ -530,7 +530,7 @@ button:focus {
 
 .home_banner_area .banner_inner {
     width: 100%;
-        background: #cb6fd869;
+        background: #ffffff69;
 
     
 }

@@ -15,7 +15,7 @@ function navItems(props) {
                         {dataItems.map((item, index) => {
                             return (
                                 <li className="nav-item active" key={`nav-item-${index}`}>
-                                    <Link to={item.link} className="link">{item.titulo}</Link>
+                                    <Link to={item.link} className="nav-link">{item.titulo}</Link>
                                 </li>
                             );
                         })}

@@ -25,7 +25,7 @@ function Cursos(props) {
 
                                 <div className="feature_item " key={`cursos-item-${index}`}>
 
-                                <img src="https://img.icons8.com/clouds/100/000000/remote-working.png "></img>
+                                <img src={item.icono}></img>
                             <h4>{item.nombreCurso}</h4>
                             <p><strong>Intensidad:</strong> {item.intensidad} </p>
                             <p><strong>Fecha de aprobación:</strong> {item.fechaAprobacion} </p>
