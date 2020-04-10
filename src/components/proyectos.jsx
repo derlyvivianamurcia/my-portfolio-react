@@ -6,11 +6,11 @@ function Proyectos(props) {
     const { Proyectos } = props;
     return (
         <>
-            <section class=" features_area ">
-                <div class=" container ">
-                    <div class="row justify-content-center ">
-                        <div class="col-lg-8 text-center ">
-                            <div class="main_title ">
+            <section className=" features_area ">
+                <div className=" container ">
+                    <div className="row justify-content-center ">
+                        <div className="col-lg-8 text-center ">
+                            <div className="main_title ">
                                 <h2>proyectos
                                 Diseño de páginas web
                         </h2>
@@ -31,8 +31,8 @@ function Proyectos(props) {
                                         <img src="https://img.icons8.com/dusk/64/000000/web.png "></img>
                                         <h4>{item.nombreProyecto}</h4>
                                         <p>{item. descriptionProject}</p>
-                                        <a class=" primary_btn " href="https://derlyvivianamurcia.github.io/tribute_page/ "><span>{item.viewProject}</span></a>
-                                        <div class="col-lg-3 col-md-6">
+                                        <a className=" primary_btn " href="https://derlyvivianamurcia.github.io/tribute_page/ "><span>{item.viewProject}</span></a>
+                                        <div className="col-lg-3 col-md-6">
                                         </div>
 
                                     </div>

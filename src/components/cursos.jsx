@@ -5,11 +5,11 @@ function Cursos(props) {
     const { Cursos } = props;
     return (
         <>
-      <section class=" features_area ">
-            <div class="container ">
-                <div class="row justify-content-center ">
-                    <div class="col-lg-8 text-center ">
-                        <div class="main_title ">
+      <section className=" features_area ">
+            <div className="container ">
+                <div className="row justify-content-center ">
+                    <div className="col-lg-8 text-center ">
+                        <div className="main_title ">
                             <h2>cursos </h2>
                             <p>
                                 En está sección se encuentra una descripción de cada uno de los cursos que he desarrollado, indicando las fechas, el lugar en el que los he realizado, entre otros datos.

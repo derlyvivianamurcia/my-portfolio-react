@@ -5,11 +5,11 @@ function Experiencia(props) {
     const { Experiencia } = props;
     return (
         <>
-            <section class=" features_area ">
-                <div class="container ">
-                    <div class="row justify-content-center ">
-                        <div class="col-lg-8 text-center ">
-                            <div class="main_title ">
+            <section className=" features_area ">
+                <div className="container ">
+                    <div className="row justify-content-center ">
+                        <div className="col-lg-8 text-center ">
+                            <div className="main_title ">
                                 <h2>Experiencia </h2>
                                 <p>
                                     En está sección se encuentra la experiencia laboral y academica en diferentes campos del área de Ingeniería a fin de aplicar los conocimientos adquiridos en el trancurso de mi formación profesional.
@@ -32,7 +32,7 @@ function Experiencia(props) {
                                         <p>{item.descripcion}</p>
                                         <p><strong>Empresa:</strong>{item.empresa} </p>
                                         <p><strong>Periodo:</strong> {item.periodo} </p>
-                                        <div class="col-lg-3 col-md-6">
+                                        <div className="col-lg-3 col-md-6">
                                         </div>
 
                                     </div>

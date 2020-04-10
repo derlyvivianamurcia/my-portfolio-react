@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 function contactame() {
     return (
         <>
-            <section class="banner_area">
-                <div class="banner_inner d-flex align-items-center">
-                    <div class="container">
-                        <div class="banner_content text-center">
+            <section className="banner_area">
+                <div className="banner_inner d-flex align-items-center">
+                    <div className="container">
+                        <div className="banner_content text-center">
                             <h2>Contacto</h2>
-                            <div class="page_link">
-                            <Link to='/' className="link">Inicio</Link>
-                            <Link to='/Contacto' className="link">Contacto</Link>
+                            <div className="page_link">
+                            <Link to='/' classNameName="link">Inicio</Link>
+                            <Link to='/Contacto' classNameName="link">Contacto</Link>
 
                             </div>
                         </div>
@@ -20,44 +20,44 @@ function contactame() {
                 </div>
             </section>
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <div class="contact_info">
-                                <div class="info_item">
-                                    <i class="lnr lnr-home"></i>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-3">
+                            <div className="contact_info">
+                                <div className="info_item">
+                                    <i className="lnr lnr-home"></i>
                                     <h6>Antioquia, Colombia</h6>
                                     <p>Medellín</p>
                                 </div>
-                                <div class="info_item">
-                                    <i class="lnr lnr-phone-handset"></i>
+                                <div className="info_item">
+                                    <i className="lnr lnr-phone-handset"></i>
                                     <h6><a href="#">57 (313) 314 4090</a></h6>
 
                                 </div>
-                                <div class="info_item">
-                                    <i class="lnr lnr-envelope"></i>
+                                <div className="info_item">
+                                    <i className="lnr lnr-envelope"></i>
                                     <h6><a href="#">derlyvivianamurcia@gmail.com</a></h6>
 
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-9">
-                            <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Nombre"></input>
+                        <div className="col-lg-9">
+                            <form className="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                                <div className="col-md-6">
+                                    <div className="form-group">
+                                        <input type="text" className="form-control" id="name" name="name" placeholder="Nombre"></input>
                                     </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="Email"></input>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <textarea class="form-control" name="message" id="message" rows="1" placeholder="Mensaje"></textarea>
+                                    <div className="form-group">
+                                        <input type="email" className="form-control" id="email" name="email" placeholder="Email"></input>
                                     </div>
                                 </div>
-                                <div class="col-md-12 text-right">
-                                    <button type="submit" value="submit" class="primary_btn">
+                                <div className="col-md-6">
+                                    <div className="form-group">
+                                        <textarea className="form-control" name="message" id="message" rows="1" placeholder="Mensaje"></textarea>
+                                    </div>
+                                </div>
+                                <div className="col-md-12 text-right">
+                                    <button type="submit" value="submit" className="primary_btn">
                                         <span>Enviar mensaje</span>
                                     </button>
                                 </div>

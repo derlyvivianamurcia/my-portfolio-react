@@ -11,7 +11,7 @@ const Inicio = () => {
     <>
     <Header />
     <Main />
-    <Footer />,
+    <Footer />
     </>
 
   );

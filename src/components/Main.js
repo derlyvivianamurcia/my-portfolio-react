@@ -11,7 +11,8 @@ import Experiencia from './experiencia.jsx';
 class Main extends React.Component {
     render() {
         return (
-            <>
+            <div>
+
                 <SectionDescription dataSectionDescription={data.Main} />
                 <SecAcerca dataSecAcerca={data.Main} />
                 <Educacion Educacion={data.Educacion} />
@@ -19,9 +20,7 @@ class Main extends React.Component {
                 <SecServicios SecServicios={data.Main} />
                 <Experiencia Experiencia={data.Experiencia} />
 
-
-            </>
-
+            </div>
 
 
         );

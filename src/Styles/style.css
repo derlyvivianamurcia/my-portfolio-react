@@ -525,10 +525,14 @@ button:focus {
     /* background: url(../img/banner/home-banne_central.png) no-repeat top center; */
     background-position: center;
     background-size: cover;
+
 }
 
 .home_banner_area .banner_inner {
     width: 100%;
+        background: #cb6fd869;
+
+    
 }
 
 .home_banner_area .banner_inner .home_right_img {
@@ -617,6 +621,7 @@ button:focus {
     position: relative;
     z-index: 1;
     min-height: 485px;
+    
 }
 
 @media (max-width: 1199px) {
@@ -634,6 +639,21 @@ button:focus {
     background-size: 90% 85%;
     width: 98%;
     z-index: 1;
+    
+    
+}
+
+.banner_area2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 485px;
+    background: url(../img/banner/common-banner.png) no-repeat right bottom;
+    background-size: 90% 85%;
+    width: 98%;
+    z-index: 1;
+    
+    
 }
 
 @media (max-width: 1199px) {
@@ -644,7 +664,7 @@ button:focus {
 
 @media (max-width: 991px) {
     .banner_area .banner_inner {
-        background: #854fee;
+        background: #cb6fd869;
         width: 100%;
     }
 }
