@@ -27,7 +27,7 @@ function Cursos(props) {
 
                                 <img src="https://img.icons8.com/clouds/100/000000/remote-working.png "></img>
                             <h4>{item.nombreCurso}</h4>
-                            <p><strong>Intensidad:</strong> {item.itensidad} </p>
+                            <p><strong>Intensidad:</strong> {item.intensidad} </p>
                             <p><strong>Fecha de aprobación:</strong> {item.fechaAprobacion} </p>
                             <p><strong>Institución:</strong>{item.organizacion}</p>
                                 <div className="col-lg-3 col-md-6">

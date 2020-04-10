@@ -4,7 +4,7 @@ import SecAcerca from './secAcerca.jsx'
 import SecServicios from './secServicios.jsx'
 import AreasTrabajo from './areasTrabajo.jsx'
 import Proyectos from './proyectos.jsx'
-
+import { Link } from 'react-router-dom';
 import { data } from "../utils/mocks/data.js";
 
 
@@ -18,8 +18,9 @@ class MainPortafolioServicios extends React.Component {
                             <div class="banner_content text-center">
                                 <h2>Portafolio de Servicios</h2>
                                 <div class="page_link">
-                                    <a href="index.html">Inicio</a>
-                                    <a href="about.html">Portafolio de Servicios</a>
+                                <Link to='/' className="link">Inicio</Link>
+                                <Link to='/Portafolio_servicios' className="link">Portafolio de Servicios</Link>
+
                                 </div>
                             </div>
                         </div>

@@ -19,9 +19,8 @@ function AreasTrabajo(props) {
 
                         {AreasTrabajo.map((item, index) => {
                             return (
-                                <div class="testi_slider owl-carousel">
 
-                                    <div class="testi_item" key={`educacion-item-${index}`}>
+                                    <div class="testi_item" key={`areas-item-${index}`}>
                                         <div class="row">
                                             <div class="col-lg-4">
                                                 <img src="https://img.icons8.com/dusk/64/000000/service.png" alt=""></img>
@@ -31,14 +30,12 @@ function AreasTrabajo(props) {
                                                     <h4>{item.nombreArea}</h4>
                                                     <p>{item.descripcionArea}
                                                     </p>
-                                                    <a class="primary_btn" href="#">{item.btbProyectos}</a>
                                                 </div>
                                             </div>
                                         </div>
                                         
 
                                     </div>
-                                </div>
 
 
                             );

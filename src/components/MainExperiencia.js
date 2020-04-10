@@ -7,6 +7,8 @@ import Proyectos from './proyectos.jsx'
 
 import { data } from "../utils/mocks/data.js";
 import ItemsExperiencia from './itemsExperiencia'
+import GruposExperiencia from './gruposExperiencia.jsx'
+import { Link } from 'react-router-dom';
 
 
 class MainExperiencia extends React.Component {
@@ -19,14 +21,16 @@ class MainExperiencia extends React.Component {
                 <div class="banner_content text-center">
                     <h2>Experiencia</h2>
                     <div class="page_link">
-                        <a href="index.html">Inicio</a>
-                        <a href="services.html">Experiencia</a>
+                    <Link to='/' className="link">Inicio</Link>
+                                <Link to='/ExperienciaPage' className="link">Experiencia</Link>
+                     
                     </div>
                 </div>
             </div>
         </div>
     </section>
                 <ItemsExperiencia ItemsExperiencia={data.Experiencia} />
+                <GruposExperiencia GruposExperiencia={data.Experiencia} />
 
             
 

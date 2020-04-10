@@ -25,8 +25,8 @@ function Educacion(props) {
 
                                     <img src="https://img.icons8.com/dusk/64/000000/student-center.png"></img>
                                     <h4 className='tipoFormacion' key={`educacion-item-${index}`}> {item.nombreCard}</h4>
-                                    <p className='titulo'><strong>Titulación</strong>{item.titulacion}</p>
-                                    <p className='añoInico'><strong>Año de inicio:</strong> {item.añoInicio} </p>
+                                    <p className='titulo'><strong>Titulación:</strong> {item.titulacion}</p>
+                                    <p className='añoInico'><strong>Año de inicio:</strong> {item.añoInico} </p>
                                     <p className='añoGraaduacion'><strong>Año de graduación:</strong>{item.añoGraduacion} </p>
                                     <p className='numSemestres'><strong>Nº de Semestres aprobados:</strong> {item.numSemestre}</p>
                                     <p className='institucion'><strong>Institución:</strong>{item.Institucion}</p>

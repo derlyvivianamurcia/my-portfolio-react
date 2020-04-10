@@ -23,12 +23,17 @@ export const data = {
 
   Educacion: [
     {
-    
+      nombreCard:'PRIMARIA',
+      titulacion: "Básica primaria",
+      añoInico: '',
+      añoGraduacion: '',
+      numSemestre: "",
+      Institucion: "Institución Educativa la Salle."
     },
     {
       nombreCard:'SECUNDARIA',
       titulacion: "Bachiller Académico Intensificación Informática",
-      añoInico: 2014,
+      añoInico: '',
       añoGraduacion: 2013,
       numSemestre: "",
       Institucion: "Institución Educativa Sagrados Corazones."
@@ -42,7 +47,13 @@ export const data = {
         Institucion: "Universidad de la Amazonia"
       },
       {
-        
+        nombreCard:'FORMACIÓN COMPLEMENTARIA',
+        titulacion: "Desarrollador Front-End",
+        añoInico: 2020,
+        añoGraduacion: 2020,
+        numSemestre: "Dos meses",
+        Institucion: "Academia Geek"
+      
       },
   ],
   Cursos: [
@@ -128,13 +139,7 @@ export const data = {
       periodo: '15 de mayo al 04 de agosto del 2017',
 
     },
-    {
-      nombreExperiencia:'ESTUDIANTE INVESTIGADORA',
-      descripcion: "Investigar y desarrollar proyectos multidisciplinarios en las áreas de gestión del conocimiento, comunicación, electrónica e informática.",
-      empresa: 'Universidad de la Amazonia',
-      periodo: '2017 - 2019',
-
-    },
+   
     {
       nombreExperiencia:'EMBAJADORA EN EL EXTERIOR (INVESTIGADORA)',
       descripcion: "Investigar y diseñar intervalos de predicción basado en Redes Neuronales para caracterizar Incertidumbre de detección de objetos en imágenes.",

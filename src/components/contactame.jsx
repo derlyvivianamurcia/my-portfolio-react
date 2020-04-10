@@ -1,5 +1,6 @@
 import React from "react";
 import Data from "../utils/mocks/data";
+import { Link } from 'react-router-dom';
 
 function contactame() {
     return (
@@ -10,8 +11,9 @@ function contactame() {
                         <div class="banner_content text-center">
                             <h2>Contacto</h2>
                             <div class="page_link">
-                                <a href="index.html">Inicio</a>
-                                <a href="contact.html">Contacto</a>
+                            <Link to='/' className="link">Inicio</Link>
+                            <Link to='/Contacto' className="link">Contacto</Link>
+
                             </div>
                         </div>
                     </div>
