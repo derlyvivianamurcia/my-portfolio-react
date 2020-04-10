@@ -1,5 +1,4 @@
 import React from "react";
-import Data from "../utils/mocks/data";
 
 function Experiencia(props) {
     const { Experiencia } = props;
@@ -18,15 +17,10 @@ function Experiencia(props) {
                         </div>
                     </div>
                     <div className="row feature_inner ">
-
                         {Experiencia.map((item, index) => {
                             return (
-
                                 <div className="col-lg-3 col-md-6">
-
                                     <div className=" feature_item " key={`educacion-item-${index}`}>
-
-
                                         <img src={item.icono}></img>
                                         <h4>{item.nombreExperiencia}</h4>
                                         <p>{item.descripcion}</p>
@@ -34,19 +28,13 @@ function Experiencia(props) {
                                         <p><strong>Periodo:</strong> {item.periodo} </p>
                                         <div className="col-lg-3 col-md-6">
                                         </div>
-
                                     </div>
                                 </div>
-
-
-
-
                             );
                         })}
                     </div>
                 </div>
             </section>
-
         </>
     );
 }

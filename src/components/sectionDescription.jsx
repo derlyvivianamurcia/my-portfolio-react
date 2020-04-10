@@ -1,5 +1,4 @@
 import React from "react";
-import { data } from "../utils/mocks/data";
 import Central from '../images/imgcentral.png';
 
 function sectionDescription() {
@@ -28,14 +27,6 @@ function sectionDescription() {
                 </div>
             </div>
         </section>
-
-
-
-
-
-
-
-
     );
 };
 export default sectionDescription;

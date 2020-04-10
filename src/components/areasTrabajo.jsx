@@ -1,5 +1,4 @@
 import React from "react";
-import { Router } from "react-router-dom";
 
 function AreasTrabajo(props) {
     const { AreasTrabajo } = props;
@@ -16,37 +15,27 @@ function AreasTrabajo(props) {
                         </div>
                     </div>
                     <div className="row">
-
                         {AreasTrabajo.map((item, index) => {
                             return (
-
-                                    <div className="testi_item" key={`areas-item-${index}`}>
-                                        <div className="row">
-                                            <div className="col-lg-4">
-                                                <img src={item.icono} alt=""></img>
-                                            </div>
-                                            <div className="col-lg-8">
-                                                <div className="testi_text">
-
-                                                    <h4>{item.nombreArea}</h4>
-                                                    <p>{item.descripcionArea}
-                                                    </p>
-                                                </div>
+                                <div className="testi_item" key={`areas-item-${index}`}>
+                                    <div className="row">
+                                        <div className="col-lg-4">
+                                            <img src={item.icono} alt=""></img>
+                                        </div>
+                                        <div className="col-lg-8">
+                                            <div className="testi_text">
+                                                <h4>{item.nombreArea}</h4>
+                                                <p>{item.descripcionArea}
+                                                </p>
                                             </div>
                                         </div>
-                                        
-
                                     </div>
-
-
+                                </div>
                             );
-
                         })}
                     </div>
                 </div>
             </div>
-
-
         </>
     )
 }

@@ -18,24 +18,17 @@ class MainPortafolioServicios extends React.Component {
                             <div className="banner_content text-center">
                                 <h2>Portafolio de Servicios</h2>
                                 <div className="page_link">
-                                <Link to='/' className="link">Inicio</Link>
-                                <Link to='/Portafolio_servicios' className="link">Portafolio de Servicios</Link>
-
+                                    <Link to='/' className="link">Inicio</Link>
+                                    <Link to='/Portafolio_servicios' className="link">Portafolio de Servicios</Link>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                
                 <SecServicios SecServicios={data.Main} />
-
                 <AreasTrabajo AreasTrabajo={data.AreasTrabajo} />
                 <Proyectos Proyectos={data.Proyectos} />
-
             </>
-
-
-
         );
     }
 }

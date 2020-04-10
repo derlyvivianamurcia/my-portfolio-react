@@ -1,6 +1,4 @@
 import React from "react";
-import Data from "../utils/mocks/data";
-
 
 function Proyectos(props) {
     const { Proyectos } = props;
@@ -19,34 +17,23 @@ function Proyectos(props) {
                         </div>
                     </div>
                     <div className="row feature_inner ">
-
                         {Proyectos.map((item, index) => {
                             return (
-
                                 <div className="col-lg-3 col-md-6">
-
                                     <div className=" feature_item " key={`pryectos-item-${index}`}>
-
-
                                         <img src={item.icono}></img>
                                         <h4>{item.nombreProyecto}</h4>
-                                        <p>{item. descriptionProject}</p>
+                                        <p>{item.descriptionProject}</p>
                                         <a className=" primary_btn " href={item.viewProject}><span>Ver proyecto</span></a>
                                         <div className="col-lg-3 col-md-6">
                                         </div>
-
                                     </div>
                                 </div>
-
-
-
-
                             );
                         })}
                     </div>
                 </div>
             </section>
-
         </>
     );
 }
