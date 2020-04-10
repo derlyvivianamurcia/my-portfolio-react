@@ -23,6 +23,7 @@ export const data = {
 
   Educacion: [
     {
+      icono:"https://img.icons8.com/dusk/64/000000/student-center.png",
       nombreCard:'PRIMARIA',
       titulacion: "Básica primaria",
       añoInico: '',
@@ -31,6 +32,7 @@ export const data = {
       Institucion: "Institución Educativa la Salle."
     },
     {
+      icono:"https://img.icons8.com/dusk/64/000000/school.png",
       nombreCard:'SECUNDARIA',
       titulacion: "Bachiller Académico Intensificación Informática",
       añoInico: '',
@@ -39,6 +41,7 @@ export const data = {
       Institucion: "Institución Educativa Sagrados Corazones."
     },
       {
+        icono:"https://img.icons8.com/dusk/64/000000/student-center.png",
         nombreCard:'FORMACIÓN UNIVERSITARIA',
         titulacion: "Ingeniero de Sistemas",
         añoInico: 2014,
@@ -47,6 +50,7 @@ export const data = {
         Institucion: "Universidad de la Amazonia"
       },
       {
+        icono:"https://img.icons8.com/dusk/64/000000/school.png",
         nombreCard:'FORMACIÓN COMPLEMENTARIA',
         titulacion: "Desarrollador Front-End",
         añoInico: 2020,
@@ -130,6 +134,7 @@ export const data = {
   
   Experiencia: [
     {
+      icono:"https://img.icons8.com/dusk/64/000000/fine-print.png",
       nombreExperiencia:'ANALISTA DE SISTEMAS',
       descripcion: "Adaptar y diseñar sistemas de información para ayudar a las organizaciones a trabajar de forma más rápida y eficiente.",
       empresa: 'Universidad de la Amazonia - GIECOM',
@@ -137,6 +142,7 @@ export const data = {
      
     },
     {
+      icono:"https://img.icons8.com/dusk/64/000000/system-information.png",
       nombreExperiencia:'AUXILIAR DE SISTEMAS',
       descripcion: "Atender, orientar y brindar capacitación a los estudiantes y personal administrativo de la Institución en el área de informática.",
       empresa: 'Universidad de la Amazonia',
@@ -144,6 +150,7 @@ export const data = {
 
     },
     {
+      icono:"https://img.icons8.com/dusk/64/000000/user-manual.png",
      nombreExperiencia:'AUXILIAR DE SOPORTE',
       descripcion: "Soporte, digitalización de datos iniciales y capacitadora del personal de la Vicerrectoría de Investigaciones.s",
       empresa: 'Universidad de la Amazonia',
@@ -152,6 +159,7 @@ export const data = {
     },
    
     {
+      icono:"https://img.icons8.com/clouds/100/000000/ask-question.png",
       nombreExperiencia:'EMBAJADORA EN EL EXTERIOR (INVESTIGADORA)',
       descripcion: "Investigar y diseñar intervalos de predicción basado en Redes Neuronales para caracterizar Incertidumbre de detección de objetos en imágenes.",
       empresa: 'Universidad de la Amazonia',
@@ -161,18 +169,23 @@ export const data = {
   ],
   AreasTrabajo: [
     {
+      icono:"https://img.icons8.com/dusk/64/000000/service.png",
       nombreArea:'Mantenimiento',
       descripcionArea: "El Mantenimiento preventivo para hardware es un tipo de mantenimiento que nos permite tomar acciones para prevenir el deterioro de nuestro PC.",
       btbProyectos:  "Ver proyecto",
      
     },
     {
+      icono:"https://img.icons8.com/dusk/64/000000/test-partial-passed.png",
+
       nombreArea:'Testing con jest',
       descripcionArea: "Jest puede pensarse como un corredor de prueba específico de React, de hecho es una plataforma de prueba universal, con la capacidad de adaptarse a cualquier biblioteca o marco de JavaScript.",
       btbProyectos:  "Ver proyecto",
 
     },
     {
+      icono:"https://img.icons8.com/dusk/64/000000/web.png",
+
       nombreArea:'Diseño de páginas web',
       descripcionArea: "Diseño de Páginas web basadas en experiencia del usuario. Incorporando elementos de HTML5, CSS, BOOTSTRAP en tu sitio Web.",
       btbProyectos:  "Ver proyectos",

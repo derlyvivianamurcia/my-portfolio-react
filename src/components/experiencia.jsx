@@ -27,7 +27,7 @@ function Experiencia(props) {
                                     <div className=" feature_item " key={`educacion-item-${index}`}>
 
 
-                                        <img src="https://img.icons8.com/dusk/64/000000/fine-print.png "></img>
+                                        <img src={item.icono}></img>
                                         <h4>{item.nombreExperiencia}</h4>
                                         <p>{item.descripcion}</p>
                                         <p><strong>Empresa:</strong>{item.empresa} </p>

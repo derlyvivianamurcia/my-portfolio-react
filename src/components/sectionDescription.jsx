@@ -24,7 +24,7 @@ function sectionDescription() {
                                 <h1 class="text-uppercase">I am Derly Viviana Murcia Serrano</h1>
                                 <h5 class="text-uppercase">SYSTEMS ENGINEER AND FRONT-END DEVELOPER </h5>
                                 <div class="d-flex align-items-center">
-                                    <a class="primary_btn" href="https://drive.google.com/file/d/1daldM8lqdmKEBht1v60x9SiWvBhGCoDX/view?usp=sharing"><span>visualizar cv</span></a>
+                                    <a class="primary_btn" href="https://drive.google.com/file/d/1IbYlGl1t76FqJ4HXDbNbXZ9uj--8QJ83/view?usp=sharing"><span>visualizar cv</span></a>
                                 </div>
                             </div>
                         </div>

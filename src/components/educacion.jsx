@@ -22,7 +22,7 @@ function Educacion(props) {
 
                                     <div className="feature_item " key={`educacion-item-${index}`}>
 
-                                    <img src="https://img.icons8.com/dusk/64/000000/student-center.png"></img>
+                                    <img src={item.icono}></img>
                                     <h4 className='tipoFormacion' > {item.nombreCard}</h4>
                                     <p className='titulo'><strong>Titulación:</strong> {item.titulacion}</p>
                                     <p className='añoInico'><strong>Año de inicio:</strong> {item.añoInico} </p>

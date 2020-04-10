@@ -23,10 +23,11 @@ function AreasTrabajo(props) {
                                     <div className="testi_item" key={`areas-item-${index}`}>
                                         <div className="row">
                                             <div className="col-lg-4">
-                                                <img src="https://img.icons8.com/dusk/64/000000/service.png" alt=""></img>
+                                                <img src={item.icono} alt=""></img>
                                             </div>
                                             <div className="col-lg-8">
                                                 <div className="testi_text">
+
                                                     <h4>{item.nombreArea}</h4>
                                                     <p>{item.descripcionArea}
                                                     </p>
