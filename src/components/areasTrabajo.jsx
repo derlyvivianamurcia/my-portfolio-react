@@ -10,7 +10,7 @@ function AreasTrabajo(props) {
                         <div className="col-lg-8 text-center">
                             <div className="main_title">
                                 <h2>areas de trabajo</h2>
-                                <p>Estos son los campos de acción de mis trabajos.</p>
+                                <p>Estos son los campos de acción de mis trabajos</p>
                             </div>
                         </div>
                     </div>
